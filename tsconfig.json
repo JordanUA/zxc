@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",           // або новіша версія
+    "lib": ["es2016", "dom"],  // підтримка для ECMAScript 2016 або новішої версії
+    "module": "commonjs",      // модульна система (можете змінити на 'esnext' або 'umd', залежно від потреб)
+    "strict": true,            // вмикає строгі перевірки
+    "esModuleInterop": true,   // для сумісності з ES6-модулями
+    "skipLibCheck": true,      // пропускає перевірку типів у бібліотеках
+    "forceConsistentCasingInFileNames": true // забезпечує консистентність у використанні великих і малих літер
+  },
+  "include": ["src/**/*"],      // вказує, що компілювати всі файли в папці src
+  "exclude": ["node_modules"]   // виключає node_modules з компіляції
+}
